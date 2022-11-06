@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Pale-blue);
+    flex-direction: column;
+   
+}
+.container {
+    width: 300px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px; 
+}
+.image img {
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+}
+.content h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.content p {
+    color: var(--Desaturated-blue);
+    text-align: center;
+    padding-left:25px ;
+    padding-right:25px ;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.price {
+    display: flex;
+    justify-items: center;
+    background-color: hsl(225deg 100% 94% / 34%);
+    margin: 0 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px ;
+}
+.price img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.be h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.be p {
+    font-size: 14px;
+    color: var(--Desaturated-blue);
+}
+.price a {
+    margin-left: 33px;
+    margin-top: 7px;
+    color: var(--Bright-blue);
+    font-weight: 700;
+}
+.submit button {
+    background-color: var(--Bright-blue) ;
+    border: none;
+    border-radius: 10px;
+    margin: 0 25px 15px 25px;
+    width: 250px;
+    padding: 10px;
+    
+
+}
+.submit button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.submit p {
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--Desaturated-blue);
+
+}
+
+
